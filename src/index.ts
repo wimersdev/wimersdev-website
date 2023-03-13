@@ -1,7 +1,4 @@
-import { greetUser } from '$utils/greet';
+import { portfolioSlider } from '$utils/slider';
 
-window.Webflow ||= [];
-window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
-});
+portfolioSlider(1,1,3)
+
